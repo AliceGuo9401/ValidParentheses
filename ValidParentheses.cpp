@@ -32,7 +32,7 @@ bool isValid(string s) {
                 }
             }
         }
-        if (flag == 1 || !charStack.empty())
+        if (flag == 1 || !charStack.empty())                //flag == 1 或者charStack非空，return false
             return false;
         return true;
     }
